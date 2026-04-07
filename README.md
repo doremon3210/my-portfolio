@@ -1,42 +1,21 @@
-# sv
+# Huy Nguyen — Personal Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Personal portfolio site built with SvelteKit and Tailwind CSS.
 
-## Creating a project
+## Tech Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [SvelteKit](https://kit.svelte.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Development
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.14.1 create --template minimal --types ts --add prettier tailwindcss="plugins:none" sveltekit-adapter="adapter:static" --install npm my-portfolio
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+npm install
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Build
 
-## Building
-
-To create a production version of your app:
-
-```sh
 npm run build
-```
 
-You can preview the production build with `npm run preview`.
+## Live Site
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+https://doremon3210.github.io/my-portfolio/
